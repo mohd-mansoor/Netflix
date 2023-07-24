@@ -1,0 +1,39 @@
+.header{
+    background-color: rgb(30,30,30);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding:2rem;
+    box-sizing:border-box;
+    justify-content: space-between;
+
+    >img{
+        height: 90%;
+    }
+    >div{
+        width: 100%;
+        margin-left: 2vmax;
+
+        
+        >a{
+            margin: 1vmax;
+            font-size: 1.3rem;
+            font-weight: 300;
+        }
+    }
+    >svg{
+        color: white;
+        font-size: 2rem;
+        cursor: pointer;
+     
+    &:hover{
+        color: rgb(216,216,216);
+    }
+    }
+}
+
+@media (max-width :660px) {
+    .menu{
+        display: none;
+    }
+}
